@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="sb.lib.googobottomnavigation.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="sb.lib.googobottomnavigation.fragment.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="sb.lib.googobottomnavigation.fragment.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="sb.lib.googobottomnavigation.fragment.SettingsFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/setting_fragment" />
+
+</navigation>
